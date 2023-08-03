@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            background-color: antiquewhite;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .body{
+            margin-left: 200px;
+            margin-right:200px;
+        }
+        .more{
+            background-color: rgb(237, 215, 143);
+            width:100px;
+            
+        }
+        .content{
+            background-color: grey;
+            margin-top: -363px;
+            margin-left: 110px;
+          
+        }
+        @media(max-width:700px) and (min-width:600px){
+            .content{
+            background-color: rgb(238, 125, 125);
+            margin-top: -363px;
+            margin-left: 110px;}
+            .more{
+                background-color:  rgb(95, 89, 69);
+                width:100px;
+            }
+
+        }
+        @media(max-width:600px) and (min-width:500px){
+            .head{
+            background-color: antiquewhite;
+            margin-left: 200px;
+            margin-right: 200px;}
+            .more{
+            background-color: rgb(23, 157, 219);
+            width:100px;}
+
+        }
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="head">
+    <h1>Free CSS Layouts</h1>
+    </div>
+    <div class="body">
+    <div class="more">
+        <h5>More stuff Here</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde quam dolorum commodi vero inventore quia reiciendis nostrum, fugiat consectetur est laboriosam dolor officiis fugit ratione aspernatur quo magni praesentium!</p>
+
+    </div>
+
+    <div class="content">
+        <h4>Content Here</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequuntur non totam commodi ratione officiis. Laudantium recusandae, ad dicta at reprehenderit explicabo voluptas voluptatibus, accusantium quaerat a id inventore sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odit officia ducimus quo aut asperiores voluptatum vitae expedita quae sit nulla provident corporis debitis, tenetur sint alias vero quibusdam ex.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere deleniti expedita veritatis, repellat nemo nostrum repudiandae reiciendis in deserunt qui dignissimos vero vitae nihil rem dolores dicta iure incidunt?</p>
+    </div>
+    </div>
+</body>
+</html>
